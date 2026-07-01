@@ -1,0 +1,12 @@
+,value
+n_samples,60000
+label_column,label
+kmeans_inertia,36370560.0
+adjusted_rand_index,0.32376732979818523
+normalized_mutual_info,0.43426623425195776
+adjusted_mutual_info,0.4340960411630532
+homogeneity,0.4237467525655653
+completeness,0.44532130254043906
+v_measure,0.43426623425195765
+accuracy_hungarian_one_to_one,0.5028333333333334
+accuracy_cluster_majority,0.53145
