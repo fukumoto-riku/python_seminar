@@ -1,2 +1,4 @@
 第6回/lesson_6/MNICT_train.csv filter=lfs diff=lfs merge=lfs -text
 第6回/lesson_6/MNICT_train_label.csv filter=lfs diff=lfs merge=lfs -text
+lesson_6/code/MNICT_train.csv filter=lfs diff=lfs merge=lfs -text
+lesson_6/code/MNICT_train_label.csv filter=lfs diff=lfs merge=lfs -text
