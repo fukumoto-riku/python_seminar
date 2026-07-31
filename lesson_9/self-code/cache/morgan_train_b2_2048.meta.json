@@ -1,0 +1,10 @@
+{
+  "data_kind": "train",
+  "smiles_sha1": "96f788a1b58429c72177691f7092149f81060c6a",
+  "include_chirality": false,
+  "fingerprint_kind": "binary",
+  "radius": 2,
+  "fpSize": 2048,
+  "rdkit": "2026.03.4",
+  "n": 15000
+}

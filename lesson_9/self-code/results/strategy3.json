@@ -1,0 +1,32 @@
+{
+  "strategy": "strategy3",
+  "feature_set": "desc+custom+morgan[xgb]",
+  "model": "XGB",
+  "n_features": 2262,
+  "run_mode": "FULL",
+  "quick": false,
+  "cv_mae_mean": 0.20372856909652928,
+  "cv_mae_std": 0.0045739619460743895,
+  "fold1_mae": 0.2028012681234163,
+  "fold2_mae": 0.20108029038797878,
+  "fold3_mae": 0.20338763656031636,
+  "fold4_mae": 0.1990179946019378,
+  "fold5_mae": 0.2123556558089972,
+  "training_time": 13215.04530096054,
+  "best_params": "{\"n_estimators\": 1200, \"learning_rate\": 0.03358386146697082, \"max_depth\": 11, \"min_child_weight\": 18.02678018582362, \"subsample\": 0.8532577717027281, \"colsample_bytree\": 0.5574075726775277, \"reg_alpha\": 3.7163798969899977, \"reg_lambda\": 1.2579336784994701, \"feature_config\": {\"include_fragments\": true, \"corr_threshold\": null, \"morgan_kind\": \"count\", \"radius\": 2, \"fp_size\": 2048, \"min_df\": 1, \"n_desc\": 214, \"n_bits\": 2048, \"n_features\": 2262}, \"n_estimators_adopted\": [1200, 1200, 1200, 1199, 1197]}",
+  "submission_path": "submission_strategy3.csv",
+  "lib_versions": {
+    "python": "3.11.15",
+    "platform": "macOS-14.5-arm64-arm-64bit",
+    "machine": "arm64",
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.9.0",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.2.0",
+    "optuna": "4.9.0",
+    "shap": "0.51.0",
+    "rdkit": "2026.03.4"
+  }
+}

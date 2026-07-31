@@ -1,0 +1,10 @@
+{
+  "data_kind": "test",
+  "smiles_sha1": "90a4041cc2405d574ecbb68fa9d584460546d9b6",
+  "include_chirality": false,
+  "fingerprint_kind": "binary",
+  "radius": 2,
+  "fpSize": 2048,
+  "rdkit": "2026.03.4",
+  "n": 4000
+}

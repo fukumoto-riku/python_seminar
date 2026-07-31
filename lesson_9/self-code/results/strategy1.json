@@ -1,0 +1,32 @@
+{
+  "strategy": "strategy1",
+  "feature_set": "desc+custom top80",
+  "model": "LGB",
+  "n_features": 80,
+  "run_mode": "FULL",
+  "quick": false,
+  "cv_mae_mean": 0.2038453259213561,
+  "cv_mae_std": 0.004498796491033085,
+  "fold1_mae": 0.20405818559352967,
+  "fold2_mae": 0.2005848964742208,
+  "fold3_mae": 0.2038773819292123,
+  "fold4_mae": 0.19879669467227695,
+  "fold5_mae": 0.2119094709375407,
+  "training_time": 15758.169573783875,
+  "best_params": "{\"n_estimators\": 1500, \"learning_rate\": 0.0233342321525001, \"num_leaves\": 243, \"max_depth\": 12, \"min_child_samples\": 12, \"subsample\": 0.8246134487278344, \"colsample_bytree\": 0.7269525532574, \"reg_alpha\": 0.0020952103873760606, \"reg_lambda\": 0.44271305184117504, \"best_k\": 80, \"n_estimators_adopted\": [1500, 1497, 1495, 1500, 1500]}",
+  "submission_path": "submission_strategy1.csv",
+  "lib_versions": {
+    "python": "3.11.15",
+    "platform": "macOS-14.5-arm64-arm-64bit",
+    "machine": "arm64",
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.9.0",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.2.0",
+    "optuna": "4.9.0",
+    "shap": "0.51.0",
+    "rdkit": "2026.03.4"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "run_mode": "FULL",
+  "quick": false,
+  "recommended_single_models": [
+    {
+      "strategy": "strategy3",
+      "model": "XGB",
+      "cv_mae": 0.20372856909652928,
+      "submission": "submission_strategy3.csv"
+    },
+    {
+      "strategy": "strategy1",
+      "model": "LGB",
+      "cv_mae": 0.2038453259213561,
+      "submission": "submission_strategy1.csv"
+    },
+    {
+      "strategy": "baseline_legacy_rdkit_morgan_lgbm",
+      "model": "LightGBM",
+      "cv_mae": 0.20909808435363395,
+      "submission": "-"
+    }
+  ],
+  "reference_best_blend": {
+    "strategy": "blend_3model(1+2+3)",
+    "cv_mae": 0.1965,
+    "submission": "submission_blend3_reference.csv"
+  },
+  "official_strategy_submissions": [
+    "submission_strategy1.csv",
+    "submission_strategy2.csv",
+    "submission_strategy3.csv"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "kind": "rdkit_descriptors",
+  "rdkit": "2026.03.4",
+  "src": {
+    "name": "qm9_bandgap_test_without_answer.csv",
+    "sha1": "4ec230883f87afd59ef068953a98ace65eae5b15"
+  }
+}

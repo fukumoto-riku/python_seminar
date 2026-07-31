@@ -1,0 +1,32 @@
+{
+  "strategy": "baseline_ridge",
+  "feature_set": "descriptors+custom",
+  "model": "Ridge",
+  "n_features": 217,
+  "run_mode": "FULL",
+  "quick": false,
+  "cv_mae_mean": 0.33838629110951157,
+  "cv_mae_std": 0.0038195425884446303,
+  "fold1_mae": 0.3374720721392112,
+  "fold2_mae": 0.3374994693203726,
+  "fold3_mae": 0.33970893323845525,
+  "fold4_mae": 0.3327323391503021,
+  "fold5_mae": 0.34451864169921675,
+  "training_time": 0.7259728908538818,
+  "best_params": "{\"alpha\": 10.0}",
+  "submission_path": "-",
+  "lib_versions": {
+    "python": "3.11.15",
+    "platform": "macOS-14.5-arm64-arm-64bit",
+    "machine": "arm64",
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.9.0",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.2.0",
+    "optuna": "4.9.0",
+    "shap": "0.51.0",
+    "rdkit": "2026.03.4"
+  }
+}

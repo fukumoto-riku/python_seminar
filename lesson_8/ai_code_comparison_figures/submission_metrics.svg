@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="700" viewBox="0 0 1000 700" role="img" aria-labelledby="title desc">
+  <title id="title">9提出のF1，Precision，Recall比較</title>
+  <desc id="desc">Titanicの正解付きtest 179件に対する9提出の点推定値を横型ドットプロットで比較する．</desc>
+  <rect width="1000" height="700" fill="#ffffff"/>
+  <g font-family="Arial, 'Noto Sans CJK JP', sans-serif" fill="#222222">
+    <g stroke="#d9d9d9" stroke-width="1">
+      <line x1="280" y1="100" x2="280" y2="620"/>
+      <line x1="410" y1="100" x2="410" y2="620"/>
+      <line x1="540" y1="100" x2="540" y2="620"/>
+      <line x1="670" y1="100" x2="670" y2="620"/>
+      <line x1="800" y1="100" x2="800" y2="620"/>
+      <line x1="930" y1="100" x2="930" y2="620"/>
+    </g>
+    <g font-size="14" text-anchor="middle">
+      <text x="280" y="645">0.0</text>
+      <text x="410" y="645">0.2</text>
+      <text x="540" y="645">0.4</text>
+      <text x="670" y="645">0.6</text>
+      <text x="800" y="645">0.8</text>
+      <text x="930" y="645">1.0</text>
+      <text x="605" y="680" font-size="16">Score</text>
+    </g>
+    <g font-size="15">
+      <circle cx="360" cy="40" r="7" fill="#0072B2"/>
+      <text x="375" y="45">F1</text>
+      <rect x="445" y="33" width="14" height="14" fill="#E69F00"/>
+      <text x="470" y="45">Precision</text>
+      <polygon points="585,48 577,34 593,34" fill="#009E73"/>
+      <text x="603" y="45">Recall</text>
+      <text x="740" y="45" fill="#555555" font-size="13">n = 179，点推定値</text>
+    </g>
+    <g font-size="14" text-anchor="end">
+      <text x="265" y="135">Claude：soft voting</text>
+      <text x="265" y="190">対話型：LightGBM</text>
+      <text x="265" y="245">対話型：閾値variant</text>
+      <text x="265" y="300">対話型：XGBoost</text>
+      <text x="265" y="355">Codex：weighted blend</text>
+      <text x="265" y="410">Codex：stacking</text>
+      <text x="265" y="465">Claude：ExtraTrees</text>
+      <text x="265" y="520">Claude：stacking</text>
+      <text x="265" y="575">Codex：LightGBM</text>
+    </g>
+    <g stroke="#bdbdbd" stroke-width="2">
+      <line x1="757.2" y1="130" x2="826.4" y2="130"/>
+      <line x1="760.4" y1="185" x2="814.7" y2="185"/>
+      <line x1="769.9" y1="240" x2="800.0" y2="240"/>
+      <line x1="751.0" y1="295" x2="804.2" y2="295"/>
+      <line x1="758.5" y1="350" x2="779.3" y2="350"/>
+      <line x1="732.2" y1="405" x2="808.8" y2="405"/>
+      <line x1="729.4" y1="460" x2="807.5" y2="460"/>
+      <line x1="760.4" y1="515" x2="767.5" y2="515"/>
+      <line x1="756.1" y1="570" x2="769.9" y2="570"/>
+    </g>
+    <g fill="#0072B2">
+      <circle cx="789.5" cy="130" r="8"/><circle cx="786.1" cy="185" r="8"/>
+      <circle cx="784.5" cy="240" r="8"/><circle cx="776.2" cy="295" r="8"/>
+      <circle cx="768.7" cy="350" r="8"/><circle cx="767.5" cy="405" r="8"/>
+      <circle cx="765.3" cy="460" r="8"/><circle cx="763.9" cy="515" r="8"/>
+      <circle cx="762.9" cy="570" r="8"/>
+    </g>
+    <g fill="#E69F00">
+      <rect x="750.2" y="123" width="14" height="14"/><rect x="807.7" y="178" width="14" height="14"/>
+      <rect x="793.0" y="233" width="14" height="14"/><rect x="797.2" y="288" width="14" height="14"/>
+      <rect x="751.5" y="343" width="14" height="14"/><rect x="801.8" y="398" width="14" height="14"/>
+      <rect x="722.4" y="453" width="14" height="14"/><rect x="760.5" y="508" width="14" height="14"/>
+      <rect x="749.1" y="563" width="14" height="14"/>
+    </g>
+    <g fill="#009E73">
+      <polygon points="826.4,121 817.4,137 835.4,137"/><polygon points="760.4,176 751.4,192 769.4,192"/>
+      <polygon points="769.9,231 760.9,247 778.9,247"/><polygon points="751.0,286 742.0,302 760.0,302"/>
+      <polygon points="779.3,341 770.3,357 788.3,357"/><polygon points="732.2,396 723.2,412 741.2,412"/>
+      <polygon points="807.5,451 798.5,467 816.5,467"/><polygon points="760.4,506 751.4,522 769.4,522"/>
+      <polygon points="769.9,561 760.9,577 778.9,577"/>
+    </g>
+    <g font-size="12" fill="#0072B2">
+      <text x="799" y="125">0.7838</text>
+      <text x="796" y="180">0.7786</text>
+      <text x="794" y="235">0.7761</text>
+      <text x="786" y="290">0.7634</text>
+      <text x="779" y="345">0.7518</text>
+      <text x="778" y="400">0.7500</text>
+      <text x="775" y="455">0.7467</text>
+      <text x="774" y="510">0.7445</text>
+      <text x="773" y="565">0.7429</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600" role="img" aria-labelledby="title desc">
+  <title id="title">実行時間とbest-of-3外部F1の関係</title>
+  <desc id="desc">3実装についてnotebook保存メタデータから得た実行時間と，3提出中の最高外部F1を比較する．コード行数を注記する．</desc>
+  <rect width="1000" height="600" fill="#ffffff"/>
+  <g font-family="Arial, 'Noto Sans CJK JP', sans-serif" fill="#222222">
+    <g stroke="#d9d9d9" stroke-width="1">
+      <line x1="190" y1="510" x2="900" y2="510"/>
+      <line x1="190" y1="426" x2="900" y2="426"/>
+      <line x1="190" y1="342" x2="900" y2="342"/>
+      <line x1="190" y1="258" x2="900" y2="258"/>
+      <line x1="190" y1="174" x2="900" y2="174"/>
+      <line x1="190" y1="90" x2="900" y2="90"/>
+      <line x1="190" y1="90" x2="190" y2="510"/>
+      <line x1="326.7" y1="90" x2="326.7" y2="510"/>
+      <line x1="476.6" y1="90" x2="476.6" y2="510"/>
+      <line x1="613.3" y1="90" x2="613.3" y2="510"/>
+      <line x1="763.2" y1="90" x2="763.2" y2="510"/>
+      <line x1="900" y1="90" x2="900" y2="510"/>
+    </g>
+    <g font-size="14" text-anchor="end">
+      <text x="175" y="515">0.0</text><text x="175" y="431">0.2</text>
+      <text x="175" y="347">0.4</text><text x="175" y="263">0.6</text>
+      <text x="175" y="179">0.8</text><text x="175" y="95">1.0</text>
+    </g>
+    <g font-size="14" text-anchor="middle">
+      <text x="190" y="535">1</text><text x="326.7" y="535">3</text>
+      <text x="476.6" y="535">10</text><text x="613.3" y="535">30</text>
+      <text x="763.2" y="535">100</text><text x="900" y="535">300</text>
+      <text x="545" y="575" font-size="16">Notebook実行時間（分，対数軸）</text>
+    </g>
+    <text x="38" y="315" font-size="16" transform="rotate(-90 38 315)">best-of-3 外部F1</text>
+    <g font-size="15">
+      <circle cx="275" cy="40" r="7" fill="#E69F00"/><text x="290" y="45">Claude簡潔指示</text>
+      <circle cx="455" cy="40" r="7" fill="#0072B2"/><text x="470" y="45">Codex簡潔指示</text>
+      <circle cx="635" cy="40" r="7" fill="#009E73"/><text x="650" y="45">Codex詳細対話</text>
+    </g>
+    <circle cx="432.0" cy="180.8" r="12" fill="#E69F00" stroke="#222222" stroke-width="1.5"/>
+    <circle cx="845.0" cy="194.3" r="12" fill="#0072B2" stroke="#222222" stroke-width="1.5"/>
+    <circle cx="517.2" cy="183.0" r="12" fill="#009E73" stroke="#222222" stroke-width="1.5"/>
+    <g font-size="14">
+      <text x="330" y="150" fill="#8A5A00">6.99分，F1 0.7838</text>
+      <text x="330" y="168" fill="#555555">609 code lines</text>
+      <text x="530" y="215" fill="#006C50">13.85分，F1 0.7786</text>
+      <text x="530" y="233" fill="#555555">2,687 code lines</text>
+      <text x="690" y="165" fill="#005080">192.88分，F1 0.7518</text>
+      <text x="690" y="183" fill="#555555">1,144 code lines</text>
+    </g>
+    <text x="545" y="555" text-anchor="middle" font-size="12" fill="#555555">保存済みの1回の完全実行に基づく記述値であり，ハードウェア条件を統制したベンチマークではない．</text>
+  </g>
+</svg>

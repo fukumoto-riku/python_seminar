@@ -1,0 +1,14 @@
+{
+  "kind": "custom",
+  "rdkit": "2026.03.4",
+  "elements": [
+    "C",
+    "F",
+    "N",
+    "O"
+  ],
+  "src": {
+    "name": "qm9_bandgap_train.csv",
+    "sha1": "5cf1d58c43deef787bad847af4318afe80fd9716"
+  }
+}

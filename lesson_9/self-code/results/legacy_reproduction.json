@@ -1,0 +1,26 @@
+{
+  "exact_replica_cv_mae": 0.2098479722933928,
+  "exact_replica_best_iters": [
+    4996,
+    4987,
+    4296,
+    5000,
+    3918
+  ],
+  "honest_groupkfold_cv_mae": 0.20909808435363395,
+  "honest_adopted_estimators": [
+    4999,
+    4995,
+    5000,
+    4995,
+    3915
+  ],
+  "recorded_value": 0.2098,
+  "cause_candidates": [
+    "fold分割の違い（旧KFoldはgroup非考慮で重複分子がfoldを跨ぐ→楽観化）",
+    "early stopping方法の違い（旧は外側検証foldでES→best_iterが楽観的）",
+    "本NBは学習fold全体で再学習しESリークを排除",
+    "RDKitバージョンの違い（記述子・FPの数値差）: 2026.03.4",
+    "特徴量構成の違い（旧は独自特徴量なし・別々クリーニング）"
+  ]
+}

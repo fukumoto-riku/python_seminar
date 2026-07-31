@@ -1,0 +1,32 @@
+{
+  "strategy": "baseline_median",
+  "feature_set": "-",
+  "model": "median",
+  "n_features": 0,
+  "run_mode": "FULL",
+  "quick": false,
+  "cv_mae_mean": 1.0751122626357137,
+  "cv_mae_std": 0.007771429378150788,
+  "fold1_mae": 1.0627620890733334,
+  "fold2_mae": 1.0747859211462845,
+  "fold3_mae": 1.0798444989466667,
+  "fold4_mae": 1.0721781568522841,
+  "fold5_mae": 1.0859906471599998,
+  "training_time": 0.004328012466430664,
+  "best_params": "{}",
+  "submission_path": "-",
+  "lib_versions": {
+    "python": "3.11.15",
+    "platform": "macOS-14.5-arm64-arm-64bit",
+    "machine": "arm64",
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.9.0",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.2.0",
+    "optuna": "4.9.0",
+    "shap": "0.51.0",
+    "rdkit": "2026.03.4"
+  }
+}

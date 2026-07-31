@@ -1,0 +1,32 @@
+{
+  "strategy": "baseline_lgbm_desc",
+  "feature_set": "descriptors+custom",
+  "model": "LightGBM",
+  "n_features": 217,
+  "run_mode": "FULL",
+  "quick": false,
+  "cv_mae_mean": 0.2126889853558802,
+  "cv_mae_std": 0.004049125084480606,
+  "fold1_mae": 0.2099402729670878,
+  "fold2_mae": 0.20943210190666584,
+  "fold3_mae": 0.21412547177175334,
+  "fold4_mae": 0.20990834083729767,
+  "fold5_mae": 0.22003873929659631,
+  "training_time": 132.09488582611084,
+  "best_params": "{\"n_estimators_adopted\": [2000, 2000, 2000, 1998, 2000]}",
+  "submission_path": "-",
+  "lib_versions": {
+    "python": "3.11.15",
+    "platform": "macOS-14.5-arm64-arm-64bit",
+    "machine": "arm64",
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.9.0",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.2.0",
+    "optuna": "4.9.0",
+    "shap": "0.51.0",
+    "rdkit": "2026.03.4"
+  }
+}

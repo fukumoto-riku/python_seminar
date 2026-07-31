@@ -1,0 +1,3 @@
+kind,radius,nbits,min_df,n_bits_kept,n_features,mae
+count,2,2048,1,2048,2185,0.23212686032217217
+count,2,2048,5,2048,2185,0.23212686032217217

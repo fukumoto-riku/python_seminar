@@ -1,0 +1,33 @@
+{
+  "strategy": "blend_2model(1+2)",
+  "feature_set": "OOF blend",
+  "model": "blend(reference)",
+  "n_features": "-",
+  "run_mode": "FULL",
+  "quick": false,
+  "cv_mae_mean": 0.1974,
+  "cv_mae_std": 0.0,
+  "fold1_mae": 0.1974,
+  "fold2_mae": 0.1974,
+  "fold3_mae": 0.1974,
+  "fold4_mae": 0.1974,
+  "fold5_mae": 0.1974,
+  "training_time": 0.0,
+  "best_params": "{\"weights\": [0.672, 0.328], \"note\": \"reference only\"}",
+  "submission_path": "submission_blend2_reference.csv",
+  "is_reference_blend": true,
+  "lib_versions": {
+    "python": "3.11.15",
+    "platform": "macOS-14.5-arm64-arm-64bit",
+    "machine": "arm64",
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.9.0",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.2.0",
+    "optuna": "4.9.0",
+    "shap": "0.51.0",
+    "rdkit": "2026.03.4"
+  }
+}

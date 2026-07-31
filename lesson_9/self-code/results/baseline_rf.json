@@ -1,0 +1,32 @@
+{
+  "strategy": "baseline_rf",
+  "feature_set": "descriptors+custom",
+  "model": "RandomForest",
+  "n_features": 217,
+  "run_mode": "FULL",
+  "quick": false,
+  "cv_mae_mean": 0.22281485885855398,
+  "cv_mae_std": 0.004518437006161695,
+  "fold1_mae": 0.22564938255073283,
+  "fold2_mae": 0.21926740742389209,
+  "fold3_mae": 0.21972469431630012,
+  "fold4_mae": 0.2190295097016781,
+  "fold5_mae": 0.2304033003001667,
+  "training_time": 1859.1030230522156,
+  "best_params": "{}",
+  "submission_path": "-",
+  "lib_versions": {
+    "python": "3.11.15",
+    "platform": "macOS-14.5-arm64-arm-64bit",
+    "machine": "arm64",
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.9.0",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.2.0",
+    "optuna": "4.9.0",
+    "shap": "0.51.0",
+    "rdkit": "2026.03.4"
+  }
+}

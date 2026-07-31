@@ -1,0 +1,32 @@
+{
+  "strategy": "strategy2",
+  "feature_set": "desc+custom+PCA",
+  "model": "RBF-SVR",
+  "n_features": 120,
+  "run_mode": "FULL",
+  "quick": false,
+  "cv_mae_mean": 0.22254487888429755,
+  "cv_mae_std": 0.0021897400770920297,
+  "fold1_mae": 0.22316291893522036,
+  "fold2_mae": 0.2215784674444274,
+  "fold3_mae": 0.22073808174695939,
+  "fold4_mae": 0.22070082047022777,
+  "fold5_mae": 0.22654410582465284,
+  "training_time": 14278.788572788239,
+  "best_params": "{\"pca\": \"nc:120.0\", \"C\": 7.4684399659315295, \"gamma_mode\": \"scale\", \"epsilon\": 0.023594837883752502, \"n_pca\": 120, \"cum_var\": 0.9968916177749634}",
+  "submission_path": "submission_strategy2.csv",
+  "lib_versions": {
+    "python": "3.11.15",
+    "platform": "macOS-14.5-arm64-arm-64bit",
+    "machine": "arm64",
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.9.0",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.2.0",
+    "optuna": "4.9.0",
+    "shap": "0.51.0",
+    "rdkit": "2026.03.4"
+  }
+}
